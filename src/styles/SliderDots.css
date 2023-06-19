@@ -1,0 +1,12 @@
+/* SimpleSlider.css */
+.slick-dots li button {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #000;
+  }
+  
