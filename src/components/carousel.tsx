@@ -6,21 +6,19 @@ import { RxDotFilled } from 'react-icons/rx';
 
 export default function Carousels() {
   const slides = [
+  
     {
-      url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+      url: 'https://source.unsplash.com/uDSMTV06s4U',
     },
     {
-      url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+      url: 'https://source.unsplash.com/auCuaq4Gtsc',
     },
     {
-      url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
+      url: 'https://source.unsplash.com/MjLrM8rVMC0',
     },
     {
-      url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-    },
+      url: 'https://source.unsplash.com/2TsSsZ6xkFE'
+    }
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,7 +43,7 @@ export default function Carousels() {
     // Auto slide effect
     const interval = setInterval(() => {
       nextSlide();
-    }, 3000); // Change the interval duration as desired (e.g., 3000ms = 3 seconds)
+    }, 2500); // Change the interval duration as desired (e.g., 3000ms = 3 seconds)
 
     return () => {
       // Clean up the interval on component unmount
@@ -57,7 +55,7 @@ export default function Carousels() {
     <div className='w-full h-[580px] m-auto relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full bg-center bg-cover duration-500'
+        className='w-full h-full bg-center object-contain bg-cover duration-500'
       ></div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
