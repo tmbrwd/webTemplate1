@@ -13,7 +13,7 @@ function Index() {
   const { translate } = useContext(LanguageContext);
 
   return (
-    <div className='bg-white'>
+    <div className='bg-[#f4f4f4]'>
 
       <Carousel />
       <div className="w-full mb-[5%] mt-10 bg-white">
