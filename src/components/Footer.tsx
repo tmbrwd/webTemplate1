@@ -10,11 +10,11 @@ function Footer() {
   return (
     <footer>
         <div className="bg-white mt-10 border-top-2 border-black">
-          <div className="flex flex-col sm:flex-row justify-between text-black px-20 py-10">
+          <div className="flex flex-col sm:flex-row justify-between text-[#051C2C] px-20 py-10">
             <span className="text-2xl text-white font-semibold">
               <Kmeaka />
             </span>
-            <div className="text-black mt-10 space-y-5 ">
+            <div className="text-[#051C2C] mt-10 space-y-5 ">
               <p className="font-bold text-lg">{translate('contact-info')}</p>
               <div className="flex items-center mt-3">
                 <AiOutlineMail className="text-2xl" />
@@ -27,7 +27,7 @@ function Footer() {
             </div>
           </div>
           <hr className="bg-black my-10 h-0.1" />
-          <div className="text-black text-end mx-5">
+          <div className="text-[#051C2C] text-end mx-5">
             <p className='font-bold'>{"©Softwave 2023"}</p>
           </div>
         </div>
