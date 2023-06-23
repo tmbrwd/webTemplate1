@@ -1,5 +1,5 @@
 // _app.tsx
-
+import { Analytics } from '@vercel/analytics/react';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { LanguageProvider } from '@/context/LanguageContext';
@@ -11,6 +11,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <LanguageProvider>
       <Navbar/>
       <Component {...pageProps} />
+      <Analytics/>
       <Footer/>
     </LanguageProvider>
   );
