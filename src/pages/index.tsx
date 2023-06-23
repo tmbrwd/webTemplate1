@@ -6,7 +6,7 @@ import { BsTelephone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai'
 import { eMail, phoneNumber } from '@/constants';
 import Kmeaka from '@/components/Kmeaka';
-import Image from 'next/image';
+import Link from 'next/link';
 
 
 function Index() {
@@ -37,45 +37,44 @@ function Index() {
             <div className="flex justify-center mt-10 mb-10">
               <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mb-10 h-[500px]">
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <a href="/kontas">
+                  <Link href="/Kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/uDSMTV06s4U')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg  text-md flex justify-center p-10 text-white">
                         <p className='mt-auto'>{translate('watchShop')}</p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <a href="/kontas">
+                  <Link href="/Kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/MjLrM8rVMC0')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white">
                         <p className='mt-auto'>{translate('roofShop')}</p>
                       </div>
                     </div>
-                  </a>
-                </div>
-               
-                <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <a href="/kontas">
-                    <div style={{ backgroundImage: `url('https://source.unsplash.com/auCuaq4Gtsc')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
-                      <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white relative">
-                        {/* <div className="rounded-full bg-white w-[70px] h-[70px] absolute top-2 right-2 p-2">
-                          <img className='w-full h-full object-cover ' src="/naimansondor.png" alt="" />
-                        </div> */}
-                        <p className='mt-auto'>{translate('tableWare')}</p>
-                      </div>
-                    </div>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <a href="/kontas">
+                  <Link href="/Kontas">
+
+                    <div style={{ backgroundImage: `url('https://source.unsplash.com/auCuaq4Gtsc')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
+                      <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white relative">
+                        <p className='mt-auto'>{translate('tableWare')}</p>
+                      </div>
+                    </div>
+
+                  </Link>
+                </div>
+
+                <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
+                  <Link href="/Kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/2TsSsZ6xkFE')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white">
                         <p className='mt-auto'>{translate('agriculture')}</p>
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
