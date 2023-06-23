@@ -77,30 +77,6 @@ function Kontas() {
                     </div>
                 </div>
             </div>
-            <footer>
-                <div className="bg-[#051C2C] mt-10">
-                    <div className="flex flex-col sm:flex-row justify-between text-white p-10">
-                        <span className="text-2xl text-white font-semibold navbar-text">
-                        <Kmeaka />
-                        </span>
-                        <div className="text-white space-y-5 ">
-                            <p className="font-bold text-xl">{translate('contact-info')}</p>
-                            <div className="flex items-center mt-3">
-                                <AiOutlineMail className="text-2xl" />
-                                <p className="text-xl ml-3">{eMail}</p>
-                            </div>
-                            <div className="flex items-center mt-3">
-                                <BsTelephone className="text-2xl" />
-                                <p className="text-xl ml-3">{phoneNumber}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <hr className="bg-white my-10 h-0.1" />
-                    <div className="text-[#156ba9] text-end mx-5">
-                        <p className='font-bold'>{"©Softwave 2023"}</p>
-                    </div>
-                </div>
-            </footer>
         </div>
 
 
