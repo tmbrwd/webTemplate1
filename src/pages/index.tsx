@@ -37,7 +37,7 @@ function Index() {
             <div className="flex justify-center mt-10 mb-10">
               <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mb-10 h-[500px]">
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <Link href="/Kontas">
+                  <Link href="/kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/uDSMTV06s4U')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg  text-md flex justify-center p-10 text-white">
                         <p className='mt-auto'>{translate('watchShop')}</p>
@@ -46,7 +46,7 @@ function Index() {
                   </Link>
                 </div>
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <Link href="/Kontas">
+                  <Link href="/kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/MjLrM8rVMC0')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white">
                         <p className='mt-auto'>{translate('roofShop')}</p>
@@ -56,7 +56,7 @@ function Index() {
                 </div>
 
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <Link href="/Kontas">
+                  <Link href="/kontas">
 
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/auCuaq4Gtsc')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white relative">
@@ -68,7 +68,7 @@ function Index() {
                 </div>
 
                 <div className="p-5 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150" style={{ width: '100%', height: '100%' }}>
-                  <Link href="/Kontas">
+                  <Link href="/kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/2TsSsZ6xkFE')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white">
                         <p className='mt-auto'>{translate('agriculture')}</p>
