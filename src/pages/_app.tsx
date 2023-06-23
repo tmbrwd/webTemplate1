@@ -1,5 +1,6 @@
 // _app.tsx
 
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import { LanguageProvider } from '@/context/LanguageContext';
 import '@/styles/globals.css';
@@ -10,6 +11,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <LanguageProvider>
       <Navbar/>
       <Component {...pageProps} />
+      <Footer/>
     </LanguageProvider>
   );
 }
