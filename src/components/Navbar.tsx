@@ -22,10 +22,10 @@ function Navbar() {
     <nav className="sticky top-0 z-10 bg-white p-5 backdrop-filter backdrop-blur-lg bg-opacity-80">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <span className="text-2xl text-white font-semibold navbar-text">
+          <span className="text-2xl text-black font-semibold navbar-text">
             <Kmeaka />
           </span>
-          <div className="flex space-x-4 text-white">
+          <div className="flex space-x-4 text-black">
             <Link href="/">
               <p className="navbar-text font-bold text-xl hidden sm:inline">{translate('home')}</p>
             </Link>
@@ -38,7 +38,7 @@ function Navbar() {
               <button
                 onClick={toggleHandler}
                 type="button"
-                className="text-white hover:text-white focus:outline-none focus:text-white"
+                className="text-black hover:text-white focus:outline-none focus:text-blck"
                 aria-label={translate('toggleMenu')}
               >
                 <AiOutlineMenu />
@@ -49,10 +49,10 @@ function Navbar() {
         <div className={toggle ? 'block' : 'hidden'}>
           <div className="px-2 pt-2 pb-3 space-y-1">
             <Link href="/">
-            <p className="block text-base font-medium text-white hover:text-gray-700">{translate('home')}</p>
+            <p className="block text-base font-medium text-black hover:text-gray-700">{translate('home')}</p>
             </Link>
             <Link href="/">
-            <p className="block text-base font-medium text-white hover:text-gray-700">{translate('companies')}</p>
+            <p className="block text-base font-medium text-black hover:text-gray-700">{translate('companies')}</p>
             </Link>
           </div>
         </div>

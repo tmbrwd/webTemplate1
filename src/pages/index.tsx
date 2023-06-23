@@ -16,7 +16,7 @@ function Index() {
     <div className='bg-[#f4f4f4]'>
 
       <Carousel />
-      <div className="w-full mb-[5%] mt-10 bg-white">
+      <div className="w-full mb-[5%] mt-10">
         <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto sm:p-10 md:p-10 lg:p-0 overflow-hidden">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10">
@@ -29,7 +29,7 @@ function Index() {
           </div>
         </div>
 
-        <div className="w-full my-10 bg-white">
+        <div className="w-full my-10 ">
           <div className="mx-auto w-full">
             <div className="flex justify-center mt-[5%] p-5">
               <p className='font-bold text-2xl'>{translate('operations')}</p>
