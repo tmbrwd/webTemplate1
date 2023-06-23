@@ -6,7 +6,7 @@ import { eMail, phoneNumber } from '@/constants';
 import { HiOutlineUserGroup } from 'react-icons/hi'
 import Kmeaka from '@/components/Kmeaka';
 
-function kontas() {
+function Kontas() {
     const { translate } = useContext(LanguageContext);
     return (
         <div className='bg-white'>
@@ -107,4 +107,4 @@ function kontas() {
     )
 }
 
-export default kontas
+export default Kontas
