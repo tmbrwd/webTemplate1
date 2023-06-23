@@ -83,12 +83,12 @@ function Index() {
       </div>
 
       <footer>
-        <div className="bg-[#051C2C] mt-10">
-          <div className="flex flex-col sm:flex-row justify-between text-white px-20 py-10">
+        <div className="bg-white mt-10">
+          <div className="flex flex-col sm:flex-row justify-between text-black px-20 py-10">
             <span className="text-2xl text-white font-semibold">
               <Kmeaka />
             </span>
-            <div className="text-white mt-10 space-y-5 ">
+            <div className="text-black mt-10 space-y-5 ">
               <p className="font-bold text-lg">{translate('contact-info')}</p>
               <div className="flex items-center mt-3">
                 <AiOutlineMail className="text-2xl" />
@@ -100,8 +100,8 @@ function Index() {
               </div>
             </div>
           </div>
-          <hr className="bg-white my-10 h-0.1" />
-          <div className="text-[#156ba9] text-end mx-5">
+          <hr className="bg-black my-10 h-0.1" />
+          <div className="text-black text-end mx-5">
             <p className='font-bold'>{"©Softwave 2023"}</p>
           </div>
         </div>

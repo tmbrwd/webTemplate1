@@ -19,7 +19,7 @@ function Navbar() {
   const { language, translate } = useContext(LanguageContext);
 
   return (
-    <nav className="sticky top-0 z-10 bg-[#051C2C] p-5 backdrop-filter backdrop-blur-lg ">
+    <nav className="sticky top-0 z-10 bg-white p-5 backdrop-filter backdrop-blur-lg bg-opacity-80">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <span className="text-2xl text-white font-semibold navbar-text">
