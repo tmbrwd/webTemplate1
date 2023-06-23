@@ -17,10 +17,10 @@ const LanguageChange: React.FC = () => {
   return (
     <div className="relative inline-block">
       <button
-        className="flex items-center bg-primary justify-center p-2 rounded-full focus:outline-none hover:bg-primary-hover"
+        className="flex items-center p-1 justify-center  rounded-full focus:outline-none hover:bg-primary-hover transition-shadow duration-500"
         onClick={toggleDropdown}
       >
-        <BsGlobeAmericas />
+        <BsGlobeAmericas className='text-xl'/>
       </button>
       <div
         className={`absolute right-0 mt-2 w-40 bg-white border border-gray-300 rounded shadow-lg transition-all duration-300 ${

@@ -27,11 +27,11 @@ function Navbar() {
           </span>
           <div className="flex space-x-4 text-[#051C2C]">
             <Link href="/">
-              <p className="navbar-text font-bold text-xl hidden sm:inline">{translate('home')}</p>
+              <p className="navbar-text font-bold text-xl hidden sm:inline hover:underline decoration-primary translate-x-3 transition-all  duration-100 delay-75">{translate('home')}</p>
             </Link>
             {/* company dropdown */}
             <Link href="/">
-              <p className="navbar-text font-bold text-xl hidden sm:inline">{translate('companies')}</p>
+              <p className="navbar-text font-bold text-xl hidden sm:inline hover:underline decoration-primary transition-all duration-100 delay-75">{translate('companies')}</p>
             </Link>
             <LanguageChange />
             <div className="sm:hidden">
