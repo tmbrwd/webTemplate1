@@ -76,7 +76,7 @@ export default function Carousels() {
               width: "15px",
               height: "15px",
               borderRadius: "50%",
-              backgroundColor: slideIndex === currentIndex ? "red" : "white",
+              backgroundColor: slideIndex === currentIndex ? "red" : "gray",
               transition: "background-color 0.3s ease",
               bottom: 50,
               position: "relative"

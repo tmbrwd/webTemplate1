@@ -2,10 +2,6 @@ import React, { useContext } from 'react';
 import { LanguageContext } from '@/context/LanguageContext';
 import Carousel from '@/components/carousel';
 import FixedContactButton from '@/components/FixedContactButton';
-import { BsTelephone } from 'react-icons/bs';
-import { AiOutlineMail } from 'react-icons/ai'
-import { eMail, phoneNumber } from '@/constants';
-import Kmeaka from '@/components/Kmeaka';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -18,18 +14,11 @@ function Index() {
 
       <Carousel />
       <div className="w-full mb-[5%] mt-10">
-        <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto sm:p-10 md:p-10 lg:p-0 overflow-hidden">
+        {/* <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto sm:p-10 md:p-10 lg:p-0 overflow-hidden">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10">
-              {/* <img className="object-cover lg:rounded-lg md:rounded-lg sm:rounded-none" src="../../public/1.jpeg" alt="company picture" /> */}
-              {/* <div className="flex justify-center lg:p-0 md:p-0 sm:p-10">
-                <Image src={'/pc.png'} priority={true} alt='company' width={1200} height={1000} className='rounded-lg' />
-              </div> */}
-              {/* <div className="w-[327px] h-[269.47px] relative">
-                <div className="w-[299.75px] h-[255.54px] left-[-18.17px] top-[-18.17px] absolute bg-red-500 rounded-lg" />
-                <Image src={'/pc.png'} priority={true} alt='company' width={1200} height={1000} className="w-[327px] h-[269.47px] left-0 top-0 absolute rounded-lg" />
-              </div> */}
-              <div className="w-[540px] h-[445px] relative lg:block md:block sm:hidden">
+              
+              <div className="w-[540px] h-[445px] relative">
                 <div className="w-[495px] h-[422px] left-[-30px] top-[-30px] absolute bg-[#dcdcdc] rounded-lg" />
                 <Image src={'/pc.png'} priority={true} alt='company' width={1000} height={1000} className="w-[540px] h-[445px] left-0 top-0 absolute rounded-lg lg:block md:block sm:hidden" />
               </div>
@@ -39,7 +28,22 @@ function Index() {
               <p className="mt-2 px-10 text-slate-500 lg:text-lg md:text-sm opacity-80 text-slate-900 font-normal leading-normal">{translate('info')}</p>
             </div>
           </div>
+        </div> */}
+        <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto sm:p-10 md:p-10 lg:p-0 overflow-hidden">
+          <div className="flex flex-col md:flex-row">
+            <div className="md:w-1/2 p-5">
+              <div className="w-full h-[300px] relative">
+                <div className="w-full h-[300px] left-[-30px] top-[-30px] absolute bg-[#dcdcdc] rounded-lg" />
+                <Image src={'/pc.png'} priority={true} alt='company' width={1000} height={1000} className="w-full h-full left-0 top-0 absolute rounded-lg object-cover lg:block md:block sm:hidden" />
+              </div>
+            </div>
+            <div className="md:w-1/2 md:p-5 lg:mt-0 md:mt-0 sm:mt-10 lg:p-0 sm:p-0">
+              <p className="block p-5 text-3xl text-slate-900 font-bold leading-7">{translate('aboutUs')}</p>
+              <p className="mt-2 px-5 text-slate-500 lg:text-lg md:text-sm opacity-80 text-slate-900 font-normal leading-normal">{translate('info')}</p>
+            </div>
+          </div>
         </div>
+
 
 
 
