@@ -8,16 +8,16 @@ export default function Carousels() {
   const slides = [
 
     {
-      url: 'https://source.unsplash.com/uDSMTV06s4U',
+      url: '/pc.png',
     },
     {
-      url: 'https://source.unsplash.com/auCuaq4Gtsc',
+      url: '/1.jpeg',
     },
     {
-      url: 'https://source.unsplash.com/MjLrM8rVMC0',
+      url: '/2.jpg',
     },
     {
-      url: 'https://source.unsplash.com/2TsSsZ6xkFE'
+      url: '/3.jpg'
     }
   ];
 
