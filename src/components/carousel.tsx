@@ -43,7 +43,7 @@ export default function Carousels() {
     // Auto slide effect
     const interval = setInterval(() => {
       nextSlide();
-    }, 2500); // Change the interval duration as desired (e.g., 3000ms = 3 seconds)
+    }, 4000); // Change the interval duration as desired (e.g., 3000ms = 3 seconds)
 
     return () => {
       // Clean up the interval on component unmount
