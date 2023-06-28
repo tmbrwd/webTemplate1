@@ -54,6 +54,7 @@ export default function Carousels() {
   return (
     <div className='w-full h-[580px] m-auto relative group'>
       <div
+      
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full bg-center object-contain bg-cover duration-500'
       ></div>

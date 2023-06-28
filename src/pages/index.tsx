@@ -22,8 +22,16 @@ function Index() {
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10">
               {/* <img className="object-cover lg:rounded-lg md:rounded-lg sm:rounded-none" src="../../public/1.jpeg" alt="company picture" /> */}
-              <div className="flex justify-center lg:p-0 md:p-0 sm:p-10">
-                <Image src={'/pc.png'} alt='company' width={1200} height={1000} className='rounded-lg' />
+              {/* <div className="flex justify-center lg:p-0 md:p-0 sm:p-10">
+                <Image src={'/pc.png'} priority={true} alt='company' width={1200} height={1000} className='rounded-lg' />
+              </div> */}
+              {/* <div className="w-[327px] h-[269.47px] relative">
+                <div className="w-[299.75px] h-[255.54px] left-[-18.17px] top-[-18.17px] absolute bg-red-500 rounded-lg" />
+                <Image src={'/pc.png'} priority={true} alt='company' width={1200} height={1000} className="w-[327px] h-[269.47px] left-0 top-0 absolute rounded-lg" />
+              </div> */}
+              <div className="w-[540px] h-[445px] relative lg:block md:block sm:hidden">
+                <div className="w-[495px] h-[422px] left-[-30px] top-[-30px] absolute bg-[#dcdcdc] rounded-lg" />
+                <Image src={'/pc.png'} priority={true} alt='company' width={1000} height={1000} className="w-[540px] h-[445px] left-0 top-0 absolute rounded-lg lg:block md:block sm:hidden" />
               </div>
             </div>
             <div className="md:w-1/2 md:p-5 lg:mt-0 md:mt-0 sm:mt-10 lg:p-10 sm:p-10">
