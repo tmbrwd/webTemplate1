@@ -8,17 +8,15 @@ export default function Carousels() {
   const slides = [
 
     {
-      url: '/pc.png',
+      url: '/1.png',
     },
     {
-      url: '/1.jpeg',
+      url: '/2.png',
     },
     {
-      url: '/2.jpg',
+      url: '/3.png',
     },
-    {
-      url: '/3.jpg'
-    }
+   
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
