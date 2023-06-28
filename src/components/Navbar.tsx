@@ -30,7 +30,7 @@ function Navbar() {
               <p className="navbar-text font-bold text-xl hidden sm:inline hover:underline decoration-primary translate-x-3 transition-all  duration-100 delay-75">{translate('home')}</p>
             </Link>
             {/* company dropdown */}
-            <Link href="/">
+            <Link href="#operations">
               <p className="navbar-text font-bold text-xl hidden sm:inline hover:underline decoration-primary transition-all duration-100 delay-75">{translate('companies')}</p>
             </Link>
             <LanguageChange />
@@ -38,7 +38,7 @@ function Navbar() {
               <button
                 onClick={toggleHandler}
                 type="button"
-                className="text-white hover:text-white focus:outline-none focus:text-blck"
+                className="text-black hover:text-black focus:outline-none focus:text-blck"
                 aria-label={translate('toggleMenu')}
               >
                 <AiOutlineMenu />

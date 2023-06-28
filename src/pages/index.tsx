@@ -29,10 +29,10 @@ function Index() {
           </div>
         </div>
 
-        <div className="w-full my-10 ">
-          <div className="mx-auto w-full">
-            <div className="flex justify-center mt-[5%] p-5">
-              <p className='font-bold text-2xl'>{translate('operations')}</p>
+        <div  className="w-full my-10 ">
+          <div id='operations' className="mx-auto w-full">
+            <div  className="flex justify-center mt-[5%] p-5">
+              <p  className='font-bold text-2xl'>{translate('operations')}</p>
             </div>
             <div className="flex justify-center mt-10 mb-10">
               <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 mb-10 h-[500px]">
@@ -40,7 +40,7 @@ function Index() {
                   <Link href="/kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/uDSMTV06s4U')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg  text-md flex justify-center p-10 text-white">
-                        <p className='mt-auto'>{translate('watchShop')}</p>
+                        <p className='mt-auto text-2xl'>{translate('watchShop')}</p>
                       </div>
                     </div>
                   </Link>
@@ -49,7 +49,7 @@ function Index() {
                   <Link href="/kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/MjLrM8rVMC0')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white">
-                        <p className='mt-auto'>{translate('roofShop')}</p>
+                        <p className='mt-auto text-2xl'>{translate('roofShop')}</p>
                       </div>
                     </div>
                   </Link>
@@ -60,7 +60,7 @@ function Index() {
 
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/auCuaq4Gtsc')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white relative">
-                        <p className='mt-auto'>{translate('tableWare')}</p>
+                        <p className='mt-auto text-2xl'>{translate('tableWare')}</p>
                       </div>
                     </div>
 
@@ -71,7 +71,7 @@ function Index() {
                   <Link href="/kontas">
                     <div style={{ backgroundImage: `url('https://source.unsplash.com/2TsSsZ6xkFE')` }} className='w-full hover:shadow-xl h-full bg-center bg-cover rounded-lg flex flex-col justify-end'>
                       <div className="backdrop-filter w-full h-full backdrop-brightness-50 font-bold rounded-lg text-md flex justify-center p-10 text-white">
-                        <p className='mt-auto'>{translate('agriculture')}</p>
+                        <p className='mt-auto text-2xl'>{translate('agriculture')}</p>
                       </div>
                     </div>
                   </Link>

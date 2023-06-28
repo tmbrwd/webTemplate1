@@ -9,7 +9,7 @@ interface LanguageContextValue {
 }
 
 export const LanguageContext = createContext<LanguageContextValue>({
-  language: 'mn', // Set the initial language to 'mn' (Mongolian)
+  language: 'en', // Set the initial language to 'mn' (Mongolian)
   changeLanguage: () => {},
   translate: () => ''
 });
@@ -19,7 +19,7 @@ interface LanguageProviderProps {
 }
 
 export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
-  const [language, setLanguage] = useState('mn'); // Set the initial language to 'mn' (Mongolian)
+  const [language, setLanguage] = useState('en'); // Set the initial language to 'mn' (Mongolian)
   const [translations, setTranslations] = useState<{ [key: string]: string }>({});
 
   useEffect(() => {

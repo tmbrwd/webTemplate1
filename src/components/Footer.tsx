@@ -9,7 +9,7 @@ function Footer() {
     const { translate } = useContext(LanguageContext);
   return (
     <footer>
-        <div className="bg-white mt-10 border-top-2 border-black">
+        <div className="bg-white mt-10 border-t border-[#374151]">
           <div className="flex flex-col sm:flex-row justify-between text-[#051C2C] px-20 py-10">
             <span className="text-2xl text-white font-semibold">
               <Kmeaka />
@@ -27,7 +27,7 @@ function Footer() {
             </div>
           </div>
           <hr className="bg-black my-10 h-0.1" />
-          <div className="text-[#051C2C] text-end mx-5">
+          <div className="text-[#051C2C] text-end mx-5 flex justify-center">
             <p className='font-bold'>{"©Softwave 2023"}</p>
           </div>
         </div>

@@ -11,6 +11,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <LanguageProvider>
       <Navbar/>
       <Component {...pageProps} />
+      <style jsx global>{`
+        html {
+          scroll-behavior: smooth;
+        }
+      `}</style>
       <Analytics/>
       <Footer/>
     </LanguageProvider>

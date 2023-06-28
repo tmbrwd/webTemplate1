@@ -6,7 +6,7 @@ import { RxDotFilled } from 'react-icons/rx';
 
 export default function Carousels() {
   const slides = [
-  
+
     {
       url: 'https://source.unsplash.com/uDSMTV06s4U',
     },
@@ -79,12 +79,12 @@ export default function Carousels() {
               borderRadius: "50%",
               backgroundColor: slideIndex === currentIndex ? "red" : "white",
               transition: "background-color 0.3s ease",
-              bottom:50,
+              bottom: 50,
               position: "relative"
             }}
           ></div>
         ))}
-        
+
       </div>
 
     </div>
