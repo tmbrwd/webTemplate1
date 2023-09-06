@@ -78,7 +78,7 @@ function Roof() {
                 <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto  overflow-hidden">
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10">
-                        <Image src={"/buildingmaterial.jpg"} alt={""} width={500} height={300} className="object-cover shadow-xl lg:rounded-lg md:rounded-lg sm:rounded-none" />
+                        <Image src="/buildingmaterial.jpg" alt="" width={500} height={300} className="object-cover shadow-xl lg:rounded-lg md:rounded-lg sm:rounded-none" />
                         </div>
                         <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10 p-10">
                             <p className="block font-bold text-3xl leading-tight text-black">{translate('aboutUs')}</p>
