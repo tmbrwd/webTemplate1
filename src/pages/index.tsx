@@ -39,7 +39,7 @@ function Index() {
             <div className="md:w-1/2 p-5">
               <div className="w-full h-[300px] relative">
                 <div className="w-full h-[300px] left-[-30px] top-[-30px] absolute bg-[#dcdcdc] rounded-lg" />
-                <Image loading='lazy' src={'/pc.png'} alt='company' width={1000} height={1000} className="w-full h-full left-0 top-0 absolute rounded-lg object-cover lg:block md:block sm:hidden" />
+                <Image src={'/3.png'} alt='company' width={1000} height={1000} className="w-full h-full left-0 top-0 absolute rounded-lg object-cover lg:block md:block sm:hidden" />
               </div>
             </div>
             <div className="md:w-1/2 md:p-5 lg:mt-0 md:mt-0 sm:mt-10 lg:p-0 sm:p-0">
