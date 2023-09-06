@@ -8,6 +8,7 @@ import { BsFacebook, BsFillTelephoneFill } from 'react-icons/bs'
 import { MdLocationPin } from 'react-icons/md'
 import Kmeaka from '@/components/Kmeaka';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function TableWare() {
     const { translate } = useContext(LanguageContext);
@@ -34,7 +35,7 @@ function TableWare() {
                         </div>
 
                         <div className="flex justify-center font-light text-sm m-auto my-2">
-                            <p className="text-center"> 2-р khoroo,Sukhbaatar district,<br/> Ulaanbaatar, Mongolia</p>
+                            <p className="text-center"> 2-р khoroo,Sukhbaatar district,<br /> Ulaanbaatar, Mongolia</p>
                         </div>
                     </Link>
                 </div>
@@ -78,7 +79,7 @@ function TableWare() {
                 <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto  overflow-hidden">
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10">
-                            <img className="object-cover shadow-xl lg:rounded-lg md:rounded-lg sm:rounded-none" src="/naimo.jpg" alt="Modern building architecture" />
+                            <Image src={"/naimo.jpg"} alt={""} width={500} height={200} className="object-cover shadow-xl lg:rounded-lg md:rounded-lg sm:rounded-none" />
                         </div>
                         <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10 p-10">
                             <p className="block font-bold text-3xl leading-tight text-black">{translate('aboutUs')}</p>
