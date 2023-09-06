@@ -43,6 +43,14 @@ const LanguageChange: React.FC = () => {
         >
           🇲🇳 Mongolian
         </button>
+        <button
+          className={`block w-full text-left px-4 py-2 text-sm text-gray-700 ${
+            language === 'cn' ? 'font-bold' : ''
+          }`}
+          onClick={() => handleLanguageChange('cn')}
+        >
+          🇨🇳 Chinese
+        </button>
       </div>
     </div>
   );

@@ -16,17 +16,17 @@ function Index() {
     {
       url: '/roof.jpg',
       title: translate('roofShop'),
-      link: '/kontas'
+      link: '/roof'
     },
     {
       url: '/bowl.jpg',
       title: translate('tableWare'),
-      link: '/kontas'
+      link: '/tablewares'
     },
     {
       url: '/agriculture.jpg',
       title: translate('agriculture'),
-      link: '/kontas'
+      link: '/agriculture'
     },
   ];
 

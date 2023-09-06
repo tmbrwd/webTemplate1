@@ -9,18 +9,18 @@ import { MdLocationPin } from 'react-icons/md'
 import Kmeaka from '@/components/Kmeaka';
 import Link from 'next/link';
 
-function Kontas() {
+function Roof() {
     const { translate } = useContext(LanguageContext);
     return (
         <div className='bg-white'>
             <div className="w-full h-[580px]">
-                <div style={{ backgroundImage: `url('/kontas.jpg')` }} className='w-full h-full bg-center bg-cover '>
+                <div style={{ backgroundImage: `url('/building.jpg')` }} className='w-full h-full bg-center bg-cover '>
                     <div className="backdrop-filter w-full h-full backdrop-brightness-50  text-[64px] flex justify-center p-10 text-white">
-                        <p className='my-auto'>{translate('watchShop')}</p>
+                        <p className='my-auto'>{translate('roofShop')}</p>
                     </div>
                 </div>
             </div>
-            <div className="bg-[#F9F9FB] p-5 flex justify-between w-full">
+            {/* <div className="bg-[#F9F9FB] p-5 flex justify-between w-full">
                 <div className="mx-auto  transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-105 duration-150">
                     <div className="flex justify-center">
                         <div className="bg-primary-soft mx-5 rounded-full p-5 h-16 w-16 flex items-center justify-center">
@@ -72,17 +72,17 @@ function Kontas() {
 
 
 
-            </div>
+            </div> */}
 
             <div className="w-full mt-[5%] bg-white">
                 <div className="lg:w-3/5 md:w-4/5 sm:w-11/12 mx-auto  overflow-hidden">
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10">
-                            <img className="object-cover shadow-xl lg:rounded-lg md:rounded-lg sm:rounded-none" src="/2.jpg" alt="Modern building architecture" />
+                            <img className="object-cover shadow-xl lg:rounded-lg md:rounded-lg sm:rounded-none" src="/buildingmaterial.jpg" alt="Modern building architecture" />
                         </div>
                         <div className="md:w-1/2 md:p-5 lg:p-10 sm:p-10 p-10">
                             <p className="block font-bold text-3xl leading-tight text-black">{translate('aboutUs')}</p>
-                            <p className="mt-2 text-slate-500 lg:text-lg md:text-sm">{translate('watch shop info')}</p>
+                            <p className="mt-2 text-slate-500 lg:text-lg md:text-sm">{translate('building material info')}</p>
                         </div>
                     </div>
                 </div>
@@ -93,4 +93,4 @@ function Kontas() {
     )
 }
 
-export default Kontas
+export default Roof
