@@ -14,7 +14,7 @@ function TableWare() {
     return (
         <div className='bg-white'>
             <div className="w-full h-[580px]">
-                <div style={{ backgroundImage: `url('/nmsdr.jpg')` }} className='w-full h-full bg-center bg-cover '>
+                <div style={{ backgroundImage: `url('/nmsdr.JPG')` }} className='w-full h-full bg-center bg-cover '>
                     <div className="backdrop-filter w-full h-full backdrop-brightness-50  text-[64px] flex justify-center p-10 text-white">
                         <p className='my-auto'>{translate('tableWare')}</p>
                     </div>
